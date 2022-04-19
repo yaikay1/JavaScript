@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <title>InstaPet</title>
+</head>
+<body>
+    <h1> Ingrese datos de su mascota</h1>
+    <div class="mb-3">
+        <form action="">
+            <label for="nombre" class="form-label">Nombre mascota : </label>
+            <input type="text" name="nombre" placeholder="ingrese nombre" id="nombre" class="form-control">
+            <br>
+            <label for="edad class="form-label">Edad</label>
+            <input type="number" name="edad" placeholder="ingrese edad" id="edad" class="form-control">
+            <br>
+            <label for="color" class="form-label">Color de la mascota</label>
+            <input type="color" name="edad" placeholder="ingrese correo" id="correo" class="form-control">
+            <br>
+            <label for="correo" class="form-label">Correo electronico</label>
+            <input type="email" name="correo" placeholder="ingrese correo" id="correo" class="form-control">
+            <br>
+            <label for="clave" class="form-label">Password</label>
+            <input type="password" name="clave" placeholder="ingrese password" class="form-control">
+            <br>
+            <label for="raza" class="form-label" >Selecciones la raza </label>
+            <select class="form-select form-select-sm" aria-label=".form-select-lg example">
+                <option value="Op1">Bulldog</option>
+                <option value="op2">Quiltro </option>
+                <option value="op3">pug </option>
+                <option value="op3">Poodle </option>
+            </select>
+            <br>
+            <label for="actividad" class="form-label">Seleccione actividad</label>
+            <input type="radio" name="opcion" id="r1" value="opcion 1">Medico
+            <input type="radio" name="opcion" id="r2" value="opcion 2">Peluqueria
+            <input type="radio" name="opcion" id="r2" value="opcion 3">vacunacion
+            <br>
+            <label class="form-label" for="comentarios">deje su comentario</label>
+            <br>
+            <textarea name="" id="comenatario" cols="50" rows="10"></textarea>
+            <br>
+            <input type="button" value="boton" class="btn btn-primary">
+            <input type="submit" value="enviar" class="btn btn-primary">
+            
+            ...
+        </form>
+    </div>    
+</body>
+</html>

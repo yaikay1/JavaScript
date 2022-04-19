@@ -1,0 +1,40 @@
+body{
+    background-color:darkgrey;
+}
+h1{
+    font-size: x-large;
+    font-style: italic;
+    
+}
+p{
+    background-color:black;
+    color: white;
+
+}
+.parrafo_verde{
+    background-color: green;
+    color: white;
+}
+#p2{
+    background-color: blue;
+}
+#p3{
+
+}  
+.parrafo_guetho{
+    background-color: darkgrey;
+    color: white;
+    font-size: medium;
+    font-style: oblique;
+}
+
+.discografia{
+    position: static;
+    border: 3px solid #73AD21;
+/*     border-color:blueviolet;
+    border-width: 1px;
+    border-style: solid; */
+}
+.discos{
+color:chocolate;
+}
