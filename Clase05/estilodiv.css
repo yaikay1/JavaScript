@@ -1,0 +1,22 @@
+.div1{
+    position: fixed;
+    width: 300px;
+    left: 100px;
+    background-color: brown;
+    color: white;
+
+}
+.div2{
+    width: 500px;
+    background-color: blueviolet;
+    color: white;
+}
+.divcentrado{
+    margin: auto;
+    width: 500px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+
+}

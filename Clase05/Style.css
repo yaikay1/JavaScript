@@ -1,0 +1,27 @@
+div {
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+}
+.margenes{
+   
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+      
+}
+.margenes_abreviados{
+margin: 10px, 40px, 80px, 200px;
+}
+.margen_centrado{
+ width: 500px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.anchos{
+    width: 500px;
+}
+.anchos_relativo{
+    width: 50px;
+}

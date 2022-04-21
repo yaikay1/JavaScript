@@ -1,0 +1,51 @@
+body{
+    background-color: brown;
+}
+.foto1{
+    background-color: #ffff88;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.foto2{
+    background-color: #ffaa88;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.foto3{
+    background-color:darkgrey;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.imagina{
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    border: 29px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+ }
+ .imagina2{
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    border: 29px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+ }
+ .imagina3{
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    border: 29px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+ }
+ img{
+     width: 220px;
+     height: auto;
+ }
+
+

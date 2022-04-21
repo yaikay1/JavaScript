@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Square+Peg&display=swap');
+body{
+    background-color: aquamarine;
+}
+.div{ 
+    text-align: center;
+    border: 0px;
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Square Peg', cursive;
+    border-bottom: 2px red;
+    
+}
+.h1{
+    text-transform: uppercase;
+}
+.container{
+    width: 80%;
+    margin: 0% auto;
+}
+.galeria{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+     width: 30%;
+    margin: 1.4%;
+    padding: 1px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    
+}
